@@ -949,8 +949,7 @@ header {
 .contact-us-form {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: space-between; */
+    position: relative;
     gap: 16px;
     height: 445px;
     width: 540px;
@@ -971,6 +970,7 @@ header {
     border: none;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 .contact-us-form-input:focus {
     border: 2px solid var(--clr-white-ffffff);
